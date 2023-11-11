@@ -1,0 +1,147 @@
+html{height:100%;background:#d6ffe4;}
+ul,li{list-style-type:none;}
+
+/*--整體設定--*/
+body{
+	width:680px ;
+	margin:0px auto ;
+cursor: default;
+	font-size:12px ;
+font-family: arial, verdana;
+color:#000;
+letter-spacing:1px;
+line-height:19px;
+background:#fff;
+height:100%;
+}
+h1{font-family: arial, verdana;margin-left:-2px;}
+
+/*--超連結--*/
+a{
+cursor: default;
+	color:#099;
+letter-spacing:0px;
+	text-decoration:none ;
+-webkit-transition: all .2s;
+-moz-transition: all .2s;
+-o-transition:all .2s;
+transition: all .2s;
+}
+
+/*--滑鼠移動到超連結上時--*/
+a:hover{
+cursor: default;
+	color:#0e584a ;
+	text-decoration:none ;
+-webkit-transition: all .2s;
+-moz-transition: all .2s;
+-o-transition:all .2s;
+transition: all .2s;
+}
+
+/*--反白--*/
+::selection {
+	background-color:#0aa;
+	color: #fff;}
+::-moz-selection {
+	background-color:#0aa;
+	color: #fff;
+}
+
+/*--所有內容--*/
+#container{
+	width:680px ;
+padding-top:10px ;
+padding-bottom:10px ;
+background:#fff;
+
+}
+
+
+
+/*--上方--*/
+
+#header{
+background:transparent ;
+padding:10px auto;
+width:600px ;
+margin: 0px auto;
+text-align:center;
+}
+
+#navigate{
+	vertical-align:middle;
+	text-align: center;
+	margin: 0px auto;
+	width:100% ;
+  position: fixed;
+  top: 0px;
+left:0px;
+background-color:#fff;
+	}
+	
+#navigate a{
+display:block;
+}
+	
+#navigate ul{
+	width:100% ;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#navigate ul li{
+	margin: 0px auto;
+	float:left;
+	width:17% ;
+	padding:10px;
+	display:block;
+	-webkit-transition: all .2s;
+-moz-transition: all .2s;
+-o-transition:all .2s;
+transition: all .2s;
+	}
+	
+#navigate ul li:hover{
+	margin: 0px auto;
+	float:left;
+	width:17% ;
+	padding:10px;
+	background-color:#d6ffe4;
+	-webkit-transition: all .2s;
+-moz-transition: all .2s;
+-o-transition:all .2s;
+transition: all .2s;
+	}
+	
+#navigate ul li:hover a{
+	color:#099;
+	}
+
+#banner{
+	padding-top:30px;
+}
+
+	
+#01{
+clear:both;
+}
+	
+/*--主要內容區--*/
+#content{
+text-align:center;
+padding:10px auto ;
+width:600px ;
+margin: 0px auto;
+background:#fff;
+}
+
+footer{
+font-size:10px ;
+font-family: arial, verdana;
+color:#888;
+letter-spacing:1px;
+line-height:19px;
+text-align:center;
+padding-bottom:5px;
+}
